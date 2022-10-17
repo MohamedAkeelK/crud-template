@@ -1,0 +1,28 @@
+{
+  "name": "crud-app",
+  "version": "1.0.0",
+  "description": "crud template",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "seed": "node db/seed.js",
+    "dev": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@git.generalassemb.ly:wdi-dc-instructors/lesson-template.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1",
+    "mongoose": "^5.7.8"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.20"
+  },
+  "type":"module"
+}
+
